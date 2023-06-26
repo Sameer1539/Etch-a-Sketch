@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+.footer {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
