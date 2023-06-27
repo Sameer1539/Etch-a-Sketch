@@ -1,20 +1,17 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: flex; 
 }
-
 .header {
     display: flex;
     align-items: center;
     width: 400px;
     justify-content: space-around;
+    margin-top: 200px;
 }
 
 .footer {
     display: flex;
-    width: 500px;
+    width: 400px;
     justify-content: space-between;
 }
 
@@ -24,4 +21,9 @@ body {
     display: grid;
     border: 1px solid black;
     margin: 20px;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
